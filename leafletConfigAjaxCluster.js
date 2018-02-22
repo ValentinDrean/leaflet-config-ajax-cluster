@@ -157,7 +157,6 @@ function getCommunityData() {
     contentType: 'application/json; charset=utf-8',
     dataType: 'json'
   });
-  // console.log(getData);
   getData.done(function(data) {
     for (var i = 0; i < data.records.length; i++) {
       circle = L.circle(new L.latLng([data.records[i].lat, data.records[i].long]), {
