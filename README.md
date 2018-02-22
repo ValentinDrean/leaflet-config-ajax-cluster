@@ -1,4 +1,4 @@
-# H1 leaflet-config-ajax-cluster
+# leaflet-config-ajax-cluster
 
 A custom leaflet configuration with plugin Leaflet.markercluster that makes it possible to have different color style from an ajax data range asset, applies on simple location markers and markerclusters.
 
